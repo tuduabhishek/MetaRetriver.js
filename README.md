@@ -1,4 +1,4 @@
-<div content="center">
+<div align="center">
     
   # MetaRetriver.js
  
