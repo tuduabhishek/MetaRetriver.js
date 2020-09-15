@@ -69,6 +69,8 @@ console.log(localStorage.getItem(url));
 
 Example Layout using [Bootstrap](https://getbootstrap.com/) and code
 
+#### HTML
+
 ```html
    
     <div class="card" style="width: 18rem;">
@@ -80,6 +82,7 @@ Example Layout using [Bootstrap](https://getbootstrap.com/) and code
           </div>
 
 ```
+#### JavaScript
 
 ```javascript
 
@@ -95,6 +98,6 @@ MetaRetriver(url).retrive(true,metaTags,function(data){
 
 ```
 
+#### Output
 
-
-
+<img src="" />
