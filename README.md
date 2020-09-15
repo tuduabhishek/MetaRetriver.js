@@ -99,5 +99,4 @@ MetaRetriver(url).retrive(true,metaTags,function(data){
 ```
 
 #### Output
-
-<img src="" />
+![Example](Example.png)
