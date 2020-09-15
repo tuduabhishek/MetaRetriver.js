@@ -8,7 +8,7 @@
 
 ## How To Use It ?
 
-Get MetaRetriver.js Library [Download Code](MetaRetriver.js)
+Get MetaRetriver.js Library [Download Code](https://raw.githubusercontent.com/tuduabhishek/MetaRetriver.js/master/MetaRetriver.js)
 
 ```html
    <script src="MetaRetriver.js"></script>
