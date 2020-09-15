@@ -67,3 +67,34 @@ console.log(localStorage.getItem(url));
 
 ## Designing Link Previews using MetaRetriver.js
 
+Example Layout using [Bootstrap](https://getbootstrap.com/) and code
+
+```html
+   
+    <div class="card" style="width: 18rem;">
+            <img id="image" src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title" id="title"></h5>
+              <p class="card-text" id="desc"></p>
+            </div>
+          </div>
+
+```
+
+```javascript
+
+let url="https://api.allorigins.win/raw?url=https://www.animenewsnetwork.com/cms/.163948";
+let metaTags=["property=og:image","property=og:title","name=description"];
+MetaRetriver(url).retrive(true,metaTags,function(data){
+
+    document.getElementById("image").setAttribute("src",data.get("property=og:image"));
+    document.getElementById("desc").innerHTML=data.get("name=description");
+    document.getElementById("title").innerHTML=data.get("property=og:title");
+    
+});
+
+```
+
+
+
+
